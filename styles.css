@@ -4,8 +4,8 @@
 }
 
 body {
-    background: rgb(7,7,65);
-    background: linear-gradient(0deg, rgba(7,7,65,1) 7%, rgba(16,20,107,1) 40%, rgba(0,10,156,1) 59%, rgba(38,19,255,1) 100%);
+    background: rgb(20,206,255);
+    background: linear-gradient(180deg, rgba(20,206,255,1) 0%, rgba(25,0,139,1) 100%);
     background-size:cover;
     background-size: auto;
 
