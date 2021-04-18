@@ -4,7 +4,7 @@
 }
 
 body {
-   background: rgb(0,0,0);
+    background: rgb(0,0,0);
     background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(34,26,26,1) 100%);
     background-size:cover;
     background-size: auto;
@@ -20,8 +20,10 @@ justify-content: space-around;
 align-items: center;
 flex-flow: row wrap;
 
+
 background: rgb(63,94,251);
-background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgb(249, 35, 77) 100%);
+background: radial-gradient(circle, rgb(0, 145, 255) 0%, rgb(249, 35, 67) 100%);
+
 }
 
 .main-box:hover {
@@ -36,7 +38,7 @@ filter: drop-shadow(3px 3px 3px gray);
     padding: 1em 2em;
     border: rgb(2, 2, 2) 2px solid;
     border-radius: 20px;
-    color: blanchedalmond;
+    color: rgb(255, 255, 255);
     letter-spacing: 3px;
     
     transition: margin 0.5s, border 0.5s, font 0.5s, padding 0.5s;
@@ -145,12 +147,14 @@ a:link {
     height: 3em;
     width: 12em;
 
-    margin: 1em 5em;
+    margin: 1em 2em;
     padding: 0.4em 2.2em;
 
     background: rgb(131,58,180);
     background: linear-gradient(110deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-    border-radius: 10px;
+    border-radius: 2em;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
 }
 
 .secc-box:hover {
@@ -208,12 +212,16 @@ background: linear-gradient(240deg, rgba(197,109,255,1) 0%, rgba(231,19,19,1) 51
     align-content: center;
     width: auto;
 
-    border:2px solid  rgba(253,29,29,0.9) ;
    border-radius: 20px;
 
     margin: 1em;
     padding:0em 0em;
+    
 }
+.grid-container:hover {
+    filter: saturate(100%);
+    filter: drop-shadow(-3px 3px 3px rgb(203, 203, 203));
+} 
 
 .grid-item {
     image-rendering: optimizeQuality;
