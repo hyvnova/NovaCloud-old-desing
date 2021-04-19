@@ -255,8 +255,7 @@ background: linear-gradient(240deg, rgba(197,109,255,1) 0%, rgba(231,19,19,1) 51
     width:10em;
     height:10em;
 
-    transition: height 0.5 ease-in-out;
-    transition: width 0.5 ease-in-out;
+    transition: height 0.5s, width 0.5s, border 0.5s;
 }
 
 .grid-audio:hover {
@@ -275,8 +274,7 @@ audio {
     width:10em;
     height: autop;
     outline: none;
-    transition: width 0.5s ease-in;
-    transition: right 1 ease-in-out;
+    transition: width 0.5s, right 0.5s;
 }
 audio:hover  {
     right: 1em;
