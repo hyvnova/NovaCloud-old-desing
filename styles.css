@@ -115,7 +115,7 @@ ul.nav-bar li {
     width: 5.5em;
     padding: fit-content;
     border-radius: 20px;
-    transition: width, linear, 1s;
+    transition: width 0.5s, border 0.5s, transform 0.5s;
 }
 ul.nav-bar li:hover {
     border:  rgb(0, 0, 0) 4px dashed;
@@ -233,6 +233,8 @@ background: linear-gradient(240deg, rgba(197,109,255,1) 0%, rgba(231,19,19,1) 51
     flex-flow: row wrap;
     width:auto;
     height:14em;
+    
+    transition: border 0.5s, height 0.5s;
 }
 
 .grid-item:hover {
