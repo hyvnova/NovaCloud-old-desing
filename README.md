@@ -1,2 +1,2 @@
 # Nova Cloud
-realmente esto no es nada interezante  es solo una pagina web con un monton de secciones que re-hago cada cierto tiempo para probrar mis habilidades 
+Pagina hecha para probar mis habilidades con CSS del momento
